@@ -103,7 +103,7 @@ export const projectsData = [
       "Slack",
       "Zapier",
     ],
-    liveUrl: "#", // Apna GHL portfolio link yahan dalo
+    liveUrl: "https://ghl-plum.vercel.app/", // Apna GHL portfolio link yahan dalo
     githubUrl: null,
     image: GHL, // GHL ka image yahan import karo
     emoji: "⚡",
@@ -136,7 +136,7 @@ export const projectsData = [
       "Excel",
       "Dropshipping",
     ],
-    liveUrl: "#",
+    liveUrl: "https://ebay-brown-seven.vercel.app/",
     githubUrl: null,
     image: Ebay,
     emoji: "📦",
