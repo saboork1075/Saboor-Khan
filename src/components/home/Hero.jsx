@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import saboor from "../../assets/images/profile/saboor.jpeg";
+import saboor from "../../assets/images/profile/saboor.png";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center bg-gradient-hero pt-20 pb-16 overflow-hidden">
