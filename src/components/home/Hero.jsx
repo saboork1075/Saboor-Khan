@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-
+import saboor from "../../assets/images/profilesaboor.jpeg";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center bg-gradient-hero pt-20 pb-16 overflow-hidden">
@@ -137,7 +137,7 @@ export default function Hero() {
               <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-[#F8FAFC] to-[#EFF6FF] flex items-end justify-center overflow-hidden shadow-2xl border-4 border-white">
                 {/* Profile image — apni image ka path daalein */}
                 <img
-                  src="src\assets\images\profile\saboor.jpeg"
+                  src={saboor}
                   alt="Saboor Khan"
                   className="w-full h-full object-cover object-top"
                   onError={(e) => {
