@@ -3,7 +3,7 @@ import SectionHeading from "../components/common/SectionHeading";
 import SkillCard from "../components/skills/SkillCard";
 import { skillsData } from "../data/skillsData";
 import { GraduationCap, Sparkles } from "lucide-react";
-import saboor from "../../assets/images/profilesaboor.jpeg";
+import saboor from "../../assets/images/profile/saboor.jpeg";
 
 const experience = [
   {
