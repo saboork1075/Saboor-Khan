@@ -3,6 +3,7 @@ import SectionHeading from "../components/common/SectionHeading";
 import SkillCard from "../components/skills/SkillCard";
 import { skillsData } from "../data/skillsData";
 import { GraduationCap, Sparkles } from "lucide-react";
+import saboor from "../../assets/images/profilesaboor.jpeg";
 
 const experience = [
   {
@@ -43,7 +44,7 @@ export default function About() {
               <div className="absolute -inset-4 bg-gradient-to-br from-[#3B82F6]/20 via-[#EFF6FF]/30 to-[#F59E0B]/20 rounded-3xl opacity-60 blur-2xl" />
               <div className="relative w-72 h-80 rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                 <img
-                  src="src\assets\images\profile\saboor.jpeg"
+                  src={saboor}
                   alt="Saboor Khan"
                   className="w-full h-full object-cover object-top"
                   onError={(e) => {
