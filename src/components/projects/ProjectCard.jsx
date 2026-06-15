@@ -24,12 +24,12 @@ export default function ProjectCard({ project }) {
         <div className="absolute inset-0 bg-gradient-to-t from-[#1E293B]/60 to-transparent pointer-events-none" />
 
         {/* Hover Overlay */}
-        <div className="absolute inset-0 bg-[#1E293B]/0 group-hover:bg-[#1E293B]/20 transition-all duration-500 flex items-center justify-center">
+        {/* <div className="absolute inset-0 bg-[#1E293B]/0 group-hover:bg-[#1E293B]/20 transition-all duration-500 flex items-center justify-center">
           <span className="opacity-0 group-hover:opacity-100 transition-all duration-500 bg-white/90 text-[#3B82F6] px-4 py-2 rounded-xl font-semibold text-sm flex items-center gap-2 shadow-lg">
             <Eye size={16} />
             View Project
           </span>
-        </div>
+        </div> */}
 
         {/* Category Badge (Top Right) */}
         <span className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-lg border border-white/20 z-10">
